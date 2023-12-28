@@ -6,11 +6,6 @@
     },
     subSection:[
         {
-            type:mongoose.Schema.Types.ObjectId
-        }
-    ],
-    subSection:[
-        {
             type:mongoose.Schema.Types.ObjectId,
             required : true,
             ref:"SubSection",
@@ -19,4 +14,4 @@
 
  })
 
- module.exports = monoogse.model("Section" , sectionSchema)
+ module.exports = mongoose.model("Section" , sectionSchema)
