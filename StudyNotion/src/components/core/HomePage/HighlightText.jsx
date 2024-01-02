@@ -1,11 +1,12 @@
-import React from "react";
+import React from 'react'
 
-const HighlightText = ({ text }) => {
+const HighlightText = ({text}) => {
   return (
-    <span className="font-bold text-richblue-500">
-      {" "} {text}
+    <span className='font-bold text-richblue-200'>
+        {" "}
+        {text}
     </span>
-  );
-};
+  )
+}
 
-export default HighlightText;
+export default HighlightText
